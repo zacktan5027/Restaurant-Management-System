@@ -1,0 +1,30 @@
+.intro-item{
+	padding: 60px;
+	border-bottom: 1px solid rgba(0,0,0,0.04);
+
+	i{
+		font-size: 62px;
+	}
+}
+
+.intro-wrap{
+	margin-top: -90px;
+}
+
+
+.bg-gray{
+	background: #f8f8f8;
+}
+
+.intro{
+	position: relative;
+	z-index: 1;
+}
+
+
+@include desktop{
+	.intro-item{
+		padding: 30px;
+	}
+
+}

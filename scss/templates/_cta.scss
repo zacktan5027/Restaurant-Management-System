@@ -1,0 +1,74 @@
+.cta{
+	background: url("../images/banner/cta-bg.jpg")fixed 50% 50%  no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+
+/// App Download
+/// 
+
+
+.btn-download{
+	border: 2px solid $black;
+	display: inline-block;
+	padding:7px 25px;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+
+	i{
+		float: left;
+		font-size: 22px;
+		padding-top: 10px;
+	}
+
+	.btn-text{
+		margin-left: 40px;
+		line-height: 21px;
+		font-weight: 700;
+		text-transform: uppercase;
+
+		span{
+			font-size: 12px;
+			display: block;
+			font-weight: 400;
+			letter-spacing: 2px;
+			color: rgba(0,0,0,0.7);
+			-webkit-transition: all 0.3s ease-in-out;
+		   -moz-transition: all 0.3s ease-in-out;
+		    -ms-transition: all 0.3s ease-in-out;
+		     -o-transition: all 0.3s ease-in-out;
+		        transition: all 0.3s ease-in-out;
+		}
+	}
+
+	&:hover{
+		outline: 0;
+		color: $white;
+		background: $primary-color;
+		border-color: $primary-color;
+	}
+}
+
+.btn-download:hover .btn-text span{
+	color: $white;
+}
+
+.btn-download.active{
+	background: $black;
+	color: $white;
+	border-color: $black;
+
+	.btn-text span{
+		color: $white;
+	}
+
+	&:hover{
+		background: $primary-color;
+		border-color: $primary-color;
+	}
+}

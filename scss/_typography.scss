@@ -1,0 +1,62 @@
+// Fonts 
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,700|Cookie|Open+Sans:400,700&display=swap');
+
+html{
+  overflow-x: hidden;
+}
+
+body {
+  font-family: $secondary-font;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.166667px;
+  line-height:1.7em;
+  color: #7e8690;
+
+}
+
+p{
+  color: #7e8690;
+}
+h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
+  font-family: $primary-font;
+  color: $black;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+h1 ,.h1{
+  font-size: 45px;
+  text-transform: none;
+  
+}
+
+h2,.h2 {
+  font-size: 42px;
+  line-height: 52px;
+}
+
+h3,.h3 {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+h4,.h4 {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+h5,.h5 {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+h6,.h6 {
+  font-size: 14px;
+}
+
+
+.text-sm{
+  font-size: 14px;
+}

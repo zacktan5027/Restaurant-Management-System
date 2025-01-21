@@ -1,0 +1,22 @@
+.map{
+	height: 500px;
+}
+
+#contact-form {
+	.form-control{
+		height:60px!important;
+		padding-left: 20px;
+		background: #fbf9f6;
+		border-color: #fbf9f6;
+
+		&:hover{
+			border-color: $primary-color;
+			background: transparent;
+		}
+	}
+
+	textarea.form-control {
+		height: auto !important;
+	}
+
+}
