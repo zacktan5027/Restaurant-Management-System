@@ -1,0 +1,68 @@
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+
+Template Name: Cafedine- Restuarant Template
+Theme Comapany : Themefisher
+Comapny website: https://themefisher.com/
+Author : Themefisher
+Theme Url: 
+License: 
+VERSION:	1.0
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[TABLE OF CONTENTS]
+-------------------------------------------------------------------
+
+* 01.GLOBAL 
+* 02.Typography 
+* 03.Mixins
+* 04.Button 
+* 05.Common 
+* 06.Slider 
+* 07.Navigation 
+* 08.Intro 
+* 09.About 
+* 10.Call to Action 
+* 11.Food Menu 
+* 12.Gallery 
+* 13.Reservation 
+* 14.Blog 
+* 15.Contact 
+* 16.Footer 
+* ----------------------------------------
+*/
+
+
+@import 'variables.scss';
+
+@import 'typography.scss';
+
+@import 'mixins.scss';
+
+@import 'buttons.scss';
+
+@import 'common.scss';
+
+// Slider section
+@import 'templates/slider.scss';
+// Navigation Section
+@import 'templates/navigation.scss';
+// Intro section
+@import 'templates/intro.scss';
+// About Section
+@import 'templates/about.scss';
+// call to action section
+@import 'templates/cta.scss';
+// Food menu section
+@import 'templates/menu.scss';
+// Gallery section
+@import 'templates/gallery.scss';
+// Reservation section
+@import 'templates/reservation.scss';
+// Blog section
+@import 'templates/blog.scss';
+// Contact section
+@import 'templates/contact.scss';
+// Footer section
+@import 'templates/footer.scss';

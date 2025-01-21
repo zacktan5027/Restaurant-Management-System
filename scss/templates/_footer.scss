@@ -1,0 +1,63 @@
+.footer {
+  background: #151515;
+  padding-bottom: 70px;
+
+  .widget {
+    h4,
+    h5 {
+      color: $white;
+    }
+  }
+}
+
+.footer-contact {
+  line-height: 40px;
+
+  li i {
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    height: 30px;
+  }
+}
+
+.footer-btm {
+  background: #121212;
+}
+
+.footer-menu {
+  ul li a {
+    color: #8f9397;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+.footer-newsletter .form-group .button {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  border: none !important;
+  background: none;
+  color: $white;
+}
+
+.footer-newsletter {
+  .form-control {
+    border-radius: 0px;
+    height: 50px;
+    background: #121212;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+  }
+}
+
+.footer-socials {
+  li a {
+    color: rgba(255, 255, 255, 0.6);
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.form-control{
+	height: 50px!important;
+	border-radius: 0px;
+	font-size: 14px;
+	border-color:rgba(0,0,0,0.09);
+
+	&:hover{
+		box-shadow: none;
+		border-color: $primary-color;
+	}
+	&:focus{
+		box-shadow: none;
+		border-color: $primary-color;
+	}
+}
+
+textarea.form-control {
+	height: auto !important;
+}
+
+.form-2{
+	border:2px dashed $black;
+}
+
+.thank {
+	.btn-solid-border{
+		color: $black;
+
+		&:hover{
+			color: $white;
+		}
+	}
+}
+
+.details-form,.payment-form{
+	label{
+		color: $black;
+	}
+}
+
+
+// Cart
+// 
+
+
+.table-cart tbody tr td {
+    padding: 20px 40px 20px 10px;
+}
+
+
+.table-cart thead th {
+    border-bottom: 0px;
+    text-transform: capitalize;
+    color: $black;
+
+}
+
+
+.table-cart td, .table-cart th {
+    vertical-align: middle;
+    color: #444;
+
+}
+
+.font-size-20{
+	font-size: 20px;
+}
+
+.close{
+	cursor: pointer;
+	transition: .2s ease;
+	&:hover{
+		color: $primary-color;
+	}
+}
+
+.quantity{
+	width: 50px !important;
+	height: 30px !important;
+}

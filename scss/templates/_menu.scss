@@ -1,0 +1,104 @@
+// Portfolio
+//
+.menu {
+  position: relative;
+
+  .btn:focus,
+  .btn:hover {
+    box-shadow: none !important;
+  }
+  .btn.active {
+    color: $primary-color;
+  }
+  .btn-group .btn {
+    font-size: 16px;
+  }
+
+  .btn-group:not(:first-child) > .btn,
+  .btn-group > .btn:not(:first-child) {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+
+  &:after {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    background: url("../images/bg/food.png") right bottom;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+}
+
+.btn.active:focus,
+.btn:active:focus,
+.btn:focus,
+.btn.focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.menu-item {
+  padding: 15px;
+  border: 1px dashed rgba(0, 0, 0, 0.3);
+  width: auto;
+  height: 130px;
+  img {
+    margin-right: 20px;
+    min-width: 150px;
+    box-shadow: 0px 4px 8px 0px rgba(111, 102, 88, 0.15);
+  }
+  h4 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  span {
+    font-weight: 600;
+    color: $primary-color;
+  }
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.menu-item2 {
+  border: 1px dashed rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  box-shadow: 0px 4px 8px 0px rgba(111, 102, 88, 0.15);
+
+  img {
+    float: left;
+    margin-right: 30px;
+    width: 150px;
+    margin-bottom: 40px;
+  }
+
+  .food-info {
+    padding-left: 30px;
+    h4 {
+      font-size: 22px;
+    }
+    p {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+@include mobile {
+  .btn-group,
+  .btn-group-vertical {
+    display: inline-flex;
+  }
+}
+
+@include mobile-xs {
+  .btn-group,
+  .btn-group-vertical {
+    display: inline-flex;
+  }
+}
